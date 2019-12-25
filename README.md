@@ -1,2 +1,2 @@
-# WebpackBoilerplate
+# webpack-react-boilerplate
 
