@@ -5,10 +5,11 @@ import "./test.styl";
 
 const App = () => {
     return (
+
         <div>
-            <p>React h ere! or hееееere</p>
+            <p>webpack-react-boilerplate</p>
             <TableCell />
-            <img src={require("../img/small-image.jpg")} />
+            <img src={require("../img/small-image.jpg").default} />
         </div>
     );
 };
