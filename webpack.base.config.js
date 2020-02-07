@@ -4,11 +4,14 @@ const path = require('path');
 
 module.exports = {
     entry: {
-        bundle: './src/index.js',
+        bundle: './src/index.tsx',
     },
     output: {
         path: path.resolve(__dirname, 'dist'),
         filename: '[name].js'
+    },
+    resolve: {
+        extensions: ['.js', '.jsx', '.ts', '.tsx', '.styl', '.css', '.png', '.jpg', '.jpeg']
     },
     module: {
         rules: [
