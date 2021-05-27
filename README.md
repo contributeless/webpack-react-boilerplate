@@ -6,3 +6,4 @@
 * Stylus as css preprocessor
 * Postcss as css postprocessor with autoprefixer
 * Typescript (babel-loader used)
+* Hot reload
