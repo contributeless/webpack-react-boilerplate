@@ -1,17 +1,17 @@
 import * as React from 'react';
 
-type Props = {
+interface AppProps {
 
 };
-type State = {
+interface AppState  {
 
 };
 
-export class App extends React.Component<Props, State> {
+export class App extends React.Component<AppProps, AppState> {
     render() {
         return (
             <div>
-azz
+                Hi there!
             </div>
         );
     };
