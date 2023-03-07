@@ -8,9 +8,10 @@ module.exports = merge(common, {
     devtool: 'inline-source-map',
     target: 'web',
     devServer: {
-        contentBase: path.join(__dirname, 'dist'),
+        static: path.join(__dirname, 'dist'),
         hot: true,
-        port: 9000
+        port: 9000,
+        historyApiFallback: true
     },
     plugins: [
         // add the plugin to your plugins array
